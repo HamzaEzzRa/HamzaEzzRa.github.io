@@ -10,7 +10,7 @@ import { UnrealBloomPass } from "https://rawgit.com/mrdoob/three.js/dev/examples
 import { BokehPass } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/postprocessing/BokehPass.js";
 import { SMAAPass } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/postprocessing/SMAAPass.js";
 import * as dat from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/libs/dat.gui.module.js";
-import * as gsap from "./gsap.js";
+// import * as gsap from "./gsap.js";
 
 const components = {
     debugger: null,
@@ -485,14 +485,14 @@ const handleClick = () => {
                     originalRotation: intersected.rotation 
                 };
                 
-                const distanceToCamera = 1.5;
-                const target = new THREE.Vector3(0, 0, -distanceToCamera);
-                target.applyMatrix4(components.camera.matrixWorld);
+                // const distanceToCamera = 1.5;
+                // const target = new THREE.Vector3(0, 0, -distanceToCamera);
+                // target.applyMatrix4(components.camera.matrixWorld);
 
-                intersected.lookAt(target);
+                // intersected.lookAt(target);
 
-                gsap.to(intersected.position, { duration: 2, x: target.x, y: target.y, z: target.z });
-                gsap.to(intersected.rotation, { duration: 2, x: components.camera.rotation.x + Math.PI * 0.5 });
+                // gsap.to(intersected.position, { duration: 2, x: target.x, y: target.y, z: target.z });
+                // gsap.to(intersected.rotation, { duration: 2, x: components.camera.rotation.x + Math.PI * 0.5 });
                 break;
             }
         }
