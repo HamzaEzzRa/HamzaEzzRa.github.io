@@ -1,16 +1,16 @@
-import { OrbitControls } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/controls/OrbitControls.js'";
-import { DRACOLoader } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/loaders/DRACOLoader";
-import { GLTFLoader } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/loaders/GLTFLoader";
-import { EffectComposer } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/postprocessing/EffectComposer";
-import { OutlinePass } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/postprocessing/OutlinePass";
+import { OrbitControls } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/controls/OrbitControls.js";
+import { DRACOLoader } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/loaders/DRACOLoader.js";
+import { GLTFLoader } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/loaders/GLTFLoader.js";
+import { EffectComposer } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/postprocessing/EffectComposer.js";
+import { OutlinePass } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/postprocessing/OutlinePass.js";
 import { RenderPass } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/postprocessing/RenderPass.js";
 import { ShaderPass } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/postprocessing/ShaderPass.js";
 import { FXAAShader } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/shaders/FXAAShader.js";
-import { UnrealBloomPass } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/postprocessing/UnrealBloomPass";
-import { BokehPass } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/postprocessing/BokehPass";
-import { SMAAPass } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/postprocessing/SMAAPass";
-import * as dat from "https://rawgit.com/dataarts/dat.gui/tree/master/build/dat.gui";
-import gsap from "https://rawgit.com/greensock/GSAP/tree/master/dist/gsap";
+import { UnrealBloomPass } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/postprocessing/UnrealBloomPass.js";
+import { BokehPass } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/postprocessing/BokehPass.js";
+import { SMAAPass } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/postprocessing/SMAAPass.js";
+import * as dat from "https://rawgit.com/dataarts/dat.gui/tree/master/build/dat.gui.js";
+import gsap from "https://rawgit.com/greensock/GSAP/tree/master/dist/gsap.js";
 
 const components = {
     debugger: null,
