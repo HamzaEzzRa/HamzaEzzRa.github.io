@@ -10,7 +10,7 @@ import { UnrealBloomPass } from "https://rawgit.com/mrdoob/three.js/dev/examples
 import { BokehPass } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/postprocessing/BokehPass.js";
 import { SMAAPass } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/postprocessing/SMAAPass.js";
 import * as dat from "./dat.gui.js";
-import gsap from "./gsap.js";
+import * as gsap from "./gsap.js";
 
 const components = {
     debugger: null,
