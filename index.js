@@ -9,7 +9,7 @@ import { FXAAShader } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/
 import { UnrealBloomPass } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/postprocessing/UnrealBloomPass.js";
 import { BokehPass } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/postprocessing/BokehPass.js";
 import { SMAAPass } from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/postprocessing/SMAAPass.js";
-import * as dat from "./dat.gui.js";
+import * as dat from "https://rawgit.com/mrdoob/three.js/dev/examples/jsm/libs/dat.gui.module.js";
 import * as gsap from "./gsap.js";
 
 const components = {
