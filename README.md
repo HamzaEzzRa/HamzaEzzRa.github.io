@@ -1,2 +1,2 @@
 # HamzaEzzRa.github.io
-My personal portfolio made with threejs.
+My personal portfolio website made with threejs.
