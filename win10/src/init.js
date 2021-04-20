@@ -1,0 +1,1 @@
+function stopDefaultContextMenu(){$("body").on("contextmenu",(function(n){return options.init(n),!1}))}$((function(){stopDefaultContextMenu(),home.init((()=>{}))}));
