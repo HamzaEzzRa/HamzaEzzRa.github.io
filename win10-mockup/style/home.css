@@ -151,11 +151,10 @@
 
 .date_holder {
 	position: absolute;
-	right: 2px;
-	bottom: 0;
+	right: 0.5%;
+	bottom: 7%;
 	width: 70px;
 	height: 80%;
-	top: 10%;
 }
 
 .date_holder > span {

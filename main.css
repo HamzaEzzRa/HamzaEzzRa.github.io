@@ -100,5 +100,46 @@ button.start:hover span {
    }
 }
 
+div.instructions {
+    z-index: 1;
+    position: absolute;
+    top: 1%;
+    left: 0%;
+    pointer-events: none;
+    opacity: 0;
+    will-change: opacity;
+    transition: opacity 0.7s;
+}
+
+div.instructions.started {
+    opacity: 1;
+}
+
+span.textLMB, span.textWheel {
+    font-family: cursive;
+    font-size: 24px;
+    position: absolute;
+    left: 84px;
+    width: max-content;
+}
+
+span.textLMB {
+    top: 22px;
+}
+
+span.textWheel {
+    top: 106px;
+}
+
+img.imgLMB, img.imgWheel {
+    width: 84px;
+    height: 84px;
+    position: absolute;
+}
+
+img.imgWheel {
+    top: 84px;
+}
+
 
 /*# sourceMappingURL=main.css.map*/
